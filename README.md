@@ -68,8 +68,8 @@ Now define a command syntax and assign a handler for it:
         return nil, errors.Fail(cparser.ErrBadSyntax{}, nil, "Invalid put command; try put ITEM on TARGET")
     }))
 
-	// Command handlers
-	rtn.Commands.Register(&PutCommandHandler{})
+    // Command handlers
+    parser.Commands.Register(&PutCommandHandler{})
 
 Finally, you can execute a command:
 
