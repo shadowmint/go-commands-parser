@@ -54,7 +54,7 @@ Now define a command syntax and assign a handler for it:
 
 ...and assign them all to a commands instance:
 
-	rtn := cparser.New()
+    parser := cparser.New()
 
     parser.Register(parser.Command("put", "[item]", "on", "[target]").With(func(params map[string]string) (commands.Command, error) {
         return &PutCommand{Item: params["item"], Target: params["target"]}, nil
