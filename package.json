@@ -1,0 +1,33 @@
+{
+  "name": "go-commands-parser",
+  "version": "1.0.0",
+  "description": "A command string parser",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowmint/go-commands-parser.git"
+  },
+  "files": [
+    "index.js",
+    "scripts",
+    "src"
+  ],
+  "author": "douglas.linder@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadowmint/go-commands-parser/issues"
+  },
+  "homepage": "https://github.com/shadowmint/go-commands-parser",
+  "scripts": {
+    "test": "go test -v ./src/ntoolkit/...",
+    "generate": "go generate ./src/ntoolkit/...",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "go-assert": "github:shadowmint/go-assert",
+    "go-commands": "github:shadowmint/go-commands#1.1.0",
+    "go-parser": "github:shadowmint/go-parser#1.0.0",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0"
+  }
+}
