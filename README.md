@@ -56,15 +56,17 @@ Now define a command syntax and assign a handler for it:
 
     parser := cparser.New()
 
-    parser.Register(parser.Command("put", "[item]", "on", "[target]").With(func(params map[string]string) (commands.Command, error) {
-        return &PutCommand{Item: params["item"], Target: params["target"]}, nil
+    parser.Register(parser.Command("put", "[item]", "on", "[target]").With(func(params map[string]string, context interface{}) (commands.Command, error) {
+        player, ok := context.(*Player)
+        if ok {
+          ...
+          return &PutCommand{Item: params["item"], Target: params["target"]}, nil
+        } else {
+          // Return some error...
+        }
     }))
 
-    parser.Register(parser.Command("put", "[item]", "in", "[container]").With(func(params map[string]string) (commands.Command, error) {
-        return &PutCommand{Item: params["item"], Container: params["container"]}, nil
-    }))
-
-    parser.Register(parser.Command().Word("put", true).With(func(params map[string]string) (commands.Command, error) {
+    parser.Register(parser.Command().Word("put", true).With(func(params map[string]string, context interface{}) (commands.Command, error) {
         return nil, errors.Fail(cparser.ErrBadSyntax{}, nil, "Invalid put command; try put ITEM on TARGET")
     }))
 
@@ -73,9 +75,12 @@ Now define a command syntax and assign a handler for it:
 
 Finally, you can execute a command:
 
-    p.Execute("put foo on bar").Then(func(cmd commands.Command) {
+    p.Execute("put foo on bar", player).Then(func(cmd commands.Command) {
         pcmd, ok := cmd.(*PutCommand)
         ...
     }, func(err error) {
         ...
     })
+
+Notice that `Execute` and `Wait` take an arbitrary context object that allows the `CommandFactory` to build a specific command
+given the execution context. For example, you might want to pass in the requester of the command, the application state, etc.
