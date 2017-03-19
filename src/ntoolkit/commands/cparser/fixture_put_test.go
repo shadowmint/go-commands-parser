@@ -12,16 +12,24 @@ import (
 
 type ErrInvalidDragon struct{}
 
+func putOnHandler(params map[string]string, context interface{}) (commands.Command, error) {
+	playerId := context.(int)
+	return &PutCommand{Item: params["item"], Target: params["target"], PlayerId: playerId}, nil
+}
+
+func putInHandler(params map[string]string, context interface{}) (commands.Command, error) {
+	playerId := context.(int)
+	return &PutCommand{Item: params["item"], Container: params["container"], PlayerId: playerId}, nil
+}
+
+func putDefaultHandler(params map[string]string, context interface{}) (commands.Command, error) {
+	return nil, errors.Fail(cparser.ErrBadSyntax{}, nil, "Invalid put command; try put ITEM on TARGET")
+}
+
 func registerPutFactory(parser *cparser.CommandParser) {
-	parser.Register(parser.Command("put", "[item]", "on", "[target]").With(func(params map[string]string) (commands.Command, error) {
-		return &PutCommand{Item: params["item"], Target: params["target"]}, nil
-	}))
-	parser.Register(parser.Command("put", "[item]", "in", "[container]").With(func(params map[string]string) (commands.Command, error) {
-		return &PutCommand{Item: params["item"], Container: params["container"]}, nil
-	}))
-	parser.Register(parser.Command().Word("put", true).With(func(params map[string]string) (commands.Command, error) {
-		return nil, errors.Fail(cparser.ErrBadSyntax{}, nil, "Invalid put command; try put ITEM on TARGET")
-	}))
+	parser.Register(parser.Command("put", "[item]", "on", "[target]").With(putOnHandler))
+	parser.Register(parser.Command("put", "[item]", "in", "[container]").With(putInHandler))
+	parser.Register(parser.Command().Word("put", true).With(putDefaultHandler))
 }
 
 type PutCommand struct {
@@ -29,6 +37,7 @@ type PutCommand struct {
 	Item         string
 	Target       string
 	Container    string
+	PlayerId     int
 }
 
 func (cmd *PutCommand) EventHandler() *events.EventHandler {

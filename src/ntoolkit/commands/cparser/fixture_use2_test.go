@@ -12,7 +12,7 @@ import (
 )
 
 func registerUse2Factory(parser *cparser.CommandParser) {
-	parser.Register(parser.Command("use2", "[tool]", "on", "[target]").With(func(params map[string]string) (commands.Command, error) {
+	parser.Register(parser.Command("use2", "[tool]", "on", "[target]").With(func(params map[string]string, context interface{}) (commands.Command, error) {
 		return &Use2Command{Target: params["target"], Tool: params["tool"]}, nil
 	}))
 }

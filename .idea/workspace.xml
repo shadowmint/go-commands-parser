@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87946044-90ff-4d3b-b50c-8e5c357710c4" name="Default" comment="" />
+    <list default="true" id="87946044-90ff-4d3b-b50c-8e5c357710c4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/go-mud-parser.iml" afterPath="$PROJECT_DIR$/.idea/go-mud-parser.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Go_SDK.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Go_SDK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_factory.go" afterPath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_factory.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser.go" afterPath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser_test.go" afterPath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_go_test.go" afterPath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_go_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_look_test.go" afterPath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_look_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_put_test.go" afterPath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_put_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_use2_test.go" afterPath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_use2_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_use_test.go" afterPath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_use_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/standard_command_factory.go" afterPath="$PROJECT_DIR$/src/ntoolkit/commands/cparser/standard_command_factory.go" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +31,8 @@
       <file leaf-file-name="fixture_use_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_use_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="24" column="85" lean-forward="false" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
               <folding>
                 <element signature="e#22#203#0" expanded="true" />
               </folding>
@@ -30,8 +43,8 @@
       <file leaf-file-name="command_parser_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="244" column="1" lean-forward="false" selection-start-line="244" selection-start-column="1" selection-end-line="244" selection-end-column="1" />
+            <state relative-caret-position="412">
+              <caret line="228" column="43" lean-forward="false" selection-start-line="228" selection-start-column="43" selection-end-line="228" selection-end-column="43" />
               <folding>
                 <element signature="e#22#132#0" expanded="true" />
               </folding>
@@ -39,23 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="command_parser.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser.go">
+      <file leaf-file-name="deferred_value.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/futures/deferred_value.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="e#17#101#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="237">
+              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fixture_use2_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_use2_test.go">
+      <file leaf-file-name="assert.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/assert/assert.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="441">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,33 +75,61 @@
       <file leaf-file-name="fixture_put_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_put_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#22#152#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="command_factory.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_factory.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#17#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gen_deferred_command.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/gen_deferred_command.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fixture_use2_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_use2_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standard_command_factory.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/standard_command_factory.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asm_amd64.s" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.8/libexec/src/runtime/asm_amd64.s">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="513" column="0" lean-forward="false" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panic.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.8/libexec/src/runtime/panic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="518" column="0" lean-forward="false" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="command_parser.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding>
+                <element signature="e#17#101#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ntoolkit/fsmparser/fsm.go" />
         <option value="$PROJECT_DIR$/src/ntoolkit/fsmparser/fsm_test.go" />
         <option value="$PROJECT_DIR$/src/ntoolkit/fsmparser/stack.go" />
         <option value="$PROJECT_DIR$/src/ntoolkit/fsmparser/state.go" />
@@ -155,14 +193,15 @@
         <option value="$PROJECT_DIR$/src/ntoolkit/commands/parser/fixture_use_test.go" />
         <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/gen.go" />
         <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/gen_deferred_command.go" />
-        <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_look_test.go" />
-        <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_go_test.go" />
         <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/errors.go" />
-        <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_factory.go" />
-        <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser.go" />
-        <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_use_test.go" />
         <option value="$PROJECT_DIR$/src/vendor/ntoolkit/errors/errors.go" />
+        <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser.go" />
+        <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_factory.go" />
+        <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_go_test.go" />
+        <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_look_test.go" />
+        <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_use_test.go" />
         <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_use2_test.go" />
+        <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/standard_command_factory.go" />
         <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_put_test.go" />
         <option value="$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser_test.go" />
       </list>
@@ -174,11 +213,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="136" />
+    <option name="y" value="23" />
+    <option name="width" value="1672" />
+    <option name="height" value="1318" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -195,7 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,6 +249,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="go-commands-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-commands-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-commands-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -236,6 +294,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -374,51 +433,51 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.18 at 20h 12m 03s.xml">
+    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.19 at 22h 41m 04s.xml">
       <configuration name="TestMultipleCommandSyntax in command_parser_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.18 at 20h 12m 15s.xml">
+    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.19 at 22h 42m 25s.xml">
       <configuration name="TestMultipleCommandSyntax in command_parser_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.18 at 20h 12m 31s.xml">
+    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.19 at 22h 43m 01s.xml">
       <configuration name="TestMultipleCommandSyntax in command_parser_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.18 at 20h 13m 19s.xml">
+    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.19 at 22h 44m 15s.xml">
       <configuration name="TestMultipleCommandSyntax in command_parser_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.18 at 20h 13m 46s.xml">
+    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.19 at 22h 44m 38s.xml">
       <configuration name="TestMultipleCommandSyntax in command_parser_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.18 at 20h 13m 51s.xml">
+    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.19 at 22h 44m 45s.xml">
       <configuration name="TestMultipleCommandSyntax in command_parser_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.18 at 20h 14m 52s.xml">
+    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.19 at 22h 44m 56s.xml">
       <configuration name="TestMultipleCommandSyntax in command_parser_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.18 at 20h 19m 10s.xml">
+    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.19 at 22h 47m 07s.xml">
       <configuration name="TestMultipleCommandSyntax in command_parser_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Tests - 2017.03.18 at 20h 15m 27s.xml">
-      <configuration name="Tests" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.19 at 22h 49m 14s.xml">
+      <configuration name="TestMultipleCommandSyntax in command_parser_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Tests - 2017.03.18 at 20h 17m 34s.xml">
-      <configuration name="Tests" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMultipleCommandSyntax_in_command_parser_test_go - 2017.03.19 at 22h 49m 51s.xml">
+      <configuration name="TestMultipleCommandSyntax in command_parser_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="136" y="23" width="1672" height="1318" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3213763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26809815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39747635" sideWeight="0.3557833" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32300162" sideWeight="0.30981594" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32334384" sideWeight="0.70278186" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32300162" sideWeight="0.69018406" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39747635" sideWeight="0.6442167" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39722675" sideWeight="0.63496935" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -444,17 +503,51 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser_test.go</url>
+          <line>240</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser_test.go</url>
+          <line>228</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser_test.go</url>
+          <line>234</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser_test.go</url>
+          <line>204</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser.go</url>
-          <line>37</line>
-          <option name="timeStamp" value="64" />
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/standard_command_factory.go</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="74" />
+      <option name="time" value="87" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="GoTestRunConfiguration">
+        <watch expression="p.factory[i]" language="go" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ntoolkit/parser/grammar.go" />
     <entry file="file://$PROJECT_DIR$/src/ntoolkit/parser/gen_deferred_string.go" />
     <entry file="file://$PROJECT_DIR$/src/ntoolkit/parser/stream.go" />
     <entry file="file://$PROJECT_DIR$/src/ntoolkit/parser/gen_deferred_tokens.go" />
@@ -479,24 +572,15 @@
     <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/commands/command.go" />
     <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/commands/commands.go" />
     <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/commands/command_handler.go" />
-    <entry file="file:///usr/local/Cellar/go/1.8/libexec/src/runtime/asm_amd64.s" />
     <entry file="file:///usr/local/Cellar/go/1.8/libexec/src/runtime/proc.go" />
     <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/parser/interfaces.go" />
     <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/parser/gen_deferred_tokens.go" />
     <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/commands/commands_test.go" />
-    <entry file="file:///usr/local/Cellar/go/1.8/libexec/src/runtime/panic.go" />
     <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/parser/tokens.go" />
     <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/parser/parser.go" />
     <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/parser/token.go" />
     <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/parser/tools/block_parser.go" />
     <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/errors.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_go_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
@@ -510,78 +594,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_look_test.go">
+    <entry file="file://$USER_HOME$/env/go-1.8/go/src/testing/testing.go" />
+    <entry file="file://$USER_HOME$/env/go-1.8/go/src/runtime/debug/stack.go" />
+    <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/gen_deferred_command.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        <state relative-caret-position="495">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/env/go-1.8/go/src/testing/testing.go" />
-    <entry file="file://$USER_HOME$/env/go-1.8/go/src/runtime/debug/stack.go" />
-    <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/futures/deferred_value.go" />
+    <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/errors/errors.go" />
     <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_factory.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
           <folding>
             <element signature="e#17#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/gen_deferred_command.go">
+    <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_go_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/assert/assert.go" />
-    <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser.go">
+    <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_look_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#17#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/errors/errors.go" />
-    <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_use2_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="17" column="86" lean-forward="false" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_use_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="24" column="85" lean-forward="false" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
           <folding>
             <element signature="e#22#203#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_use2_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#17#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/fixture_put_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#152#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/standard_command_factory.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.8/libexec/src/runtime/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="513" column="0" lean-forward="false" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.8/libexec/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="518" column="0" lean-forward="false" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/assert/assert.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendor/ntoolkit/futures/deferred_value.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ntoolkit/commands/cparser/command_parser_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="244" column="1" lean-forward="false" selection-start-line="244" selection-start-column="1" selection-end-line="244" selection-end-column="1" />
+        <state relative-caret-position="412">
+          <caret line="228" column="43" lean-forward="false" selection-start-line="228" selection-start-column="43" selection-end-line="228" selection-end-column="43" />
           <folding>
             <element signature="e#22#132#0" expanded="true" />
           </folding>

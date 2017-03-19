@@ -15,7 +15,7 @@ import (
 type GoCommandFactory struct {
 }
 
-func (factory *GoCommandFactory) Parse(tokenList *parser.Tokens) (commands.Command, error) {
+func (factory *GoCommandFactory) Parse(tokenList *parser.Tokens, context interface{}) (commands.Command, error) {
 	if tokenList.Front != nil {
 		if tokenList.Front.Is(tools.TokenTypeBlock, "go") {
 			direction := tokenList.Front.Next

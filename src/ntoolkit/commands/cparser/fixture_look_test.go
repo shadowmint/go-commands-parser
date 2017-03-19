@@ -15,7 +15,7 @@ import (
 type LookCommandFactory struct {
 }
 
-func (factory *LookCommandFactory) Parse(tokenList *parser.Tokens) (commands.Command, error) {
+func (factory *LookCommandFactory) Parse(tokenList *parser.Tokens, context interface{}) (commands.Command, error) {
 	if tokenList.Front != nil {
 		if tokenList.Front.Is(tools.TokenTypeBlock, "look") {
 			direction := tokenList.Front.Next

@@ -31,7 +31,7 @@ func New(cmd ...*commands.Commands) *CommandParser {
 		factory:     make([]CommandFactory, 0)  }
 }
 
-func (p *CommandParser) Execute(command string) (promise *DeferredCommand) {
+func (p *CommandParser) Execute(command string, context interface{}) (promise *DeferredCommand) {
 	defer (func() {
 		r := recover()
 		if r != nil {
@@ -45,7 +45,7 @@ func (p *CommandParser) Execute(command string) (promise *DeferredCommand) {
 		return p.failed(errors.Fail(ErrBadSyntax{}, err, "Invalid command string"))
 	}
 	for i := range p.factory {
-		cmd, err := p.factory[i].Parse(tokens)
+		cmd, err := p.factory[i].Parse(tokens, context)
 		if err != nil {
 			return p.failed(errors.Fail(ErrCommandFailed{}, err, "Command syntax error"))
 		}
@@ -63,12 +63,12 @@ func (p *CommandParser) Execute(command string) (promise *DeferredCommand) {
 }
 
 // Wait for an executed command to resolve and return nil or the error.
-func (p *CommandParser) Wait(command string) (commands.Command, error) {
+func (p *CommandParser) Wait(command string, context interface{}) (commands.Command, error) {
 	wg := &sync.WaitGroup{}
 	wg.Add(1)
 	var err error
 	var cmd commands.Command
-	p.Execute(command).Then(func(c commands.Command) {
+	p.Execute(command, context).Then(func(c commands.Command) {
 		cmd = c
 		wg.Done()
 	}, func(errRtn error) {

@@ -36,7 +36,7 @@ type StandardCommandFactory struct {
 	items []standardCommandWord
 
 	// Invoked after successful parse check to generate a command.
-	handler func(map[string]string) (commands.Command, error)
+	handler func(params map[string]string, context interface{}) (commands.Command, error)
 }
 
 // newStandardCommandFactory creates an returns a command factory
@@ -67,7 +67,7 @@ func (factory *StandardCommandFactory) Token(tokenName string) *StandardCommandF
 }
 
 // With sets the handler to generate a command on the factory
-func (factory *StandardCommandFactory) With(factoryFunc func(params map[string]string) (commands.Command, error)) *StandardCommandFactory {
+func (factory *StandardCommandFactory) With(factoryFunc func(params map[string]string, context interface{}) (commands.Command, error)) *StandardCommandFactory {
 	factory.handler = factoryFunc
 	return factory
 }
@@ -88,7 +88,7 @@ func (factory *StandardCommandFactory) String() string {
 
 // Parse checks the token list against the defined syntax and raises and error if it doesn't work.
 // Notice that
-func (factory *StandardCommandFactory) Parse(tokenList *parser.Tokens) (cmd commands.Command, err error) {
+func (factory *StandardCommandFactory) Parse(tokenList *parser.Tokens, context interface{}) (cmd commands.Command, err error) {
 	defer (func() {
 		r := recover()
 		if r != nil {
@@ -138,5 +138,5 @@ func (factory *StandardCommandFactory) Parse(tokenList *parser.Tokens) (cmd comm
 	}
 
 	// Try to get a command back
-	return factory.handler(params)
+	return factory.handler(params, context)
 }
