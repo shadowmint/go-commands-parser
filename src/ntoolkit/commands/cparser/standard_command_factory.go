@@ -105,7 +105,7 @@ func (factory *StandardCommandFactory) Parse(tokenList *parser.Tokens, context i
 
 	// collect values
 	for offset := 0; offset < len(factory.items) && marker != nil; offset++ {
-		raw := marker.CollectRaw()
+		raw := marker.CollectRaw(" ")
 		item := factory.items[offset]
 		if item.Type == standardCommandTypeWord {
 			// TODO: Capitialization check?
