@@ -1,6 +1,6 @@
 {
   "name": "go-commands-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A command string parser",
   "main": "index.js",
   "repository": {
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "go-assert": "github:shadowmint/go-assert",
-    "go-commands": "github:shadowmint/go-commands#1.1.0",
+    "go-commands": "github:shadowmint/go-commands#1.1.1",
     "go-parser": "github:shadowmint/go-parser#1.0.0",
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0"
